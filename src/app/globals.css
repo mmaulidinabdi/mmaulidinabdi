@@ -34,3 +34,25 @@ body {
 .font-source-code {
   font-family: var(--font-source-code-pro);
 }
+
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.animate-blink {
+    animation: blink 1s step-end infinite;
+}
+.animate-blink1 {
+    animation: blink 1s step-end infinite;
+}
+.animate-blink2 {
+    animation: blink 1.5s step-end infinite;
+}
+.animate-blink3 {
+    animation: blink 2s step-end infinite;
+}
+.animate-blink4 {
+    animation: blink 2.2s step-end infinite;
+}
