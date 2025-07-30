@@ -58,7 +58,7 @@ export default function Portfolio() {
 
                         {/* About Section */}
                         <div className="mt-5 md:mt-15">
-                            <h2 className="scroll-m-20 text-3xl text-center font-semibold tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
+                            <h2 className="scroll-m-20 text-3xl text-center font-source-code tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                                 About Me
                             </h2>
                             <p className="leading-relaxed text-gray-300">
@@ -72,8 +72,8 @@ export default function Portfolio() {
                 </div>
 
                 {/* Timeline Section */}
-                <div className="mx-auto min-h-screen mb-20">
-                    <h2 className="scroll-m-20 text-3xl font-semibold tracking-tight mb-10 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
+                <div className="mx-auto min-h-screen mb-20 md:px-30">
+                    <h2 className="scroll-m-20 text-3xl font-fira tracking-tight mb-10 text-center font-source-code text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                         Sacred Timeline
                     </h2>
 
@@ -95,12 +95,12 @@ export default function Portfolio() {
                             <p className="mb-4 text-base font-normal text-gray-400">
                                 Informatic Engineering, focusing on Web Development.
                             </p>
-                            <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 hover:text-green-400 transition-colors">
+                            {/* <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 hover:text-green-400 transition-colors">
                                 View Project
                                 <svg className="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
-                            </a>
+                            </a> */}
                         </li>
 
                         {/* Timeline Item 2 */}
@@ -134,15 +134,17 @@ export default function Portfolio() {
                     </ol>
                 </div>
 
-                <div className="mb-20">
-                    <h2 className="scroll-m-20 text-3xl text-center font-semibold tracking-tight mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
+                <div className="mb-20 md:px-30">
+                    <h2 className="scroll-m-20 text-3xl text-center font-source-code tracking-tight mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                         Projects
                     </h2>
                     <Projects />
                 </div>
+                <div className="mb-20 md:px-30">
+
                 <TechStack />
                 <Contact />
-
+                </div>
             </div>
 
             {/* Footer */}

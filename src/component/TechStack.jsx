@@ -18,7 +18,7 @@ const TechStack = () => {
     return (
         <>
             <div className="mb-20">
-                <h2 className="scroll-m-20 text-3xl text-center font-semibold tracking-tight mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
+                <h2 className="scroll-m-20 text-3xl text-center font-source-code tracking-tight mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                     Tech Stack
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
