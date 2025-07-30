@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
 
 :root {
   --background: #ffffff;
@@ -44,15 +46,86 @@ body {
 .animate-blink {
     animation: blink 1s step-end infinite;
 }
+
+@keyframes sequential-blink {
+  0%, 100% { opacity: 1; } /* Default state (reduced brightness) */
+  50% { opacity: 0; } /* Aktif penuh saat gilirannya */
+}
+
 .animate-blink1 {
-    animation: blink 1s step-end infinite;
+  animation: sequential-blink 4s infinite;
 }
 .animate-blink2 {
-    animation: blink 1.5s step-end infinite;
+  animation: sequential-blink 4s infinite 1s;
 }
 .animate-blink3 {
-    animation: blink 2s step-end infinite;
+  animation: sequential-blink 4s infinite 2s;
 }
 .animate-blink4 {
-    animation: blink 2.2s step-end infinite;
+  animation: sequential-blink 4s infinite 3s;
+}
+.animate-blink5 {
+  animation: sequential-blink 4s infinite 4s;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-pagination {
+  position: relative; /* Default: absolute */
+  margin-top: 1rem;    /* Spasi dari bawah slide */
+  display: flex;
+  justify-content: center;
+}
+/* Warna bullet Swiper default */
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: #4ade80; /* Tailwind green-400 */
+  opacity: 0.5;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #22c55e; /* Tailwind green-500 */
+  opacity: 1;
+}
+
+/* typewriter */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #10B981 }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid #10B981;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
 }

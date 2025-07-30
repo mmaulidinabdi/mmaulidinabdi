@@ -7,14 +7,16 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-                blink: 'blink 1s step-end infinite',
-            },
-            keyframes: {
-                blink: {
-                    '0%, 100%': { opacity: '1' },
-                    '50%': { opacity: '0' },
-                }
-            },
+        blink1: 'blink 1.5s infinite',
+        blink2: 'blink 1.5s infinite 0.5s',
+        blink3: 'blink 1.5s infinite 1s',
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.3 },
+        },
+      },
       fontFamily: {
         fira: ["var(--font-fira-code)", "monospace"],
         sourcePro: ["var(--font-source-code-pro)", "monospace"],
