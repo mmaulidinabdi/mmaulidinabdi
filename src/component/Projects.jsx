@@ -6,36 +6,36 @@ import { Pagination } from 'swiper/modules';
 const projects = [
     {
         id: 1,
-        title: "E-commerce Platform",
-        description: "A fullstack e-commerce app with payment integration.",
-        tech: ["React", "Node.js", "MongoDB"],
-        demo: "https://demo.com",
-        github: "https://github.com/your-repo"
+        title: "API MidManners",
+        description: "API for MidManners ",
+        tech: ["Laravel", "MySQL"],
+        demo: "https://midmanners.store",
+        github: "https://github.com/mmaulidinabdi/MidManners/tree/fitur-notifikasi"
     },
     {
         id: 2,
-        title: "E-commerce Platform",
-        description: "A fullstack e-commerce app with payment integration.",
-        tech: ["React", "Node.js", "MongoDB"],
-        demo: "https://demo.com",
-        github: "https://github.com/your-repo"
+        title: "MidManners",
+        description: "FrontEnd for MidManners",
+        tech: ["NextJS", "Javascript", "Tailwindcss"],
+        demo: "https://github.com/madityapratama/Midmanners-FE/tree/chat-sendbird",
+        github: "https://github.com/madityapratama/Midmanners-FE/tree/chat-sendbird"
     },
     {
         id: 3,
-        title: "E-commerce Platform",
-        description: "A fullstack e-commerce app with payment integration.",
-        tech: ["React", "Node.js", "MongoDB"],
-        demo: "https://demo.com",
-        github: "https://github.com/your-repo"
+        title: "SIPEKA",
+        description: "Sistem Informasi Peminjaman dan Kelola Arsip",
+        tech: ["Laravel", "Tailwindcss", "MySQL"],
+        demo: "https://github.com/mmaulidinabdi/pinjam_arsip_magang",
+        github: "https://github.com/mmaulidinabdi/pinjam_arsip_magang"
     },
     {
         id: 4,
-        title: "E-commerce Platform",
-        description: "A fullstack e-commerce app with payment integration.",
-        tech: ["React", "Node.js", "MongoDB"],
-        demo: "https://demo.com",
-        github: "https://github.com/your-repo"
-    }
+        title: "Modista API",
+        description: "MODISTA is an app designed to assist customers in purchasing the right outfit.",
+        tech: ["NodeJs", "MySQL", "Sequelize"],
+        demo: "https://github.com/Modista-Team/Cloud-Computing",
+        github: "https://github.com/Modista-Team/Cloud-Computing"
+    },
 ];
 
 const Projects = () => {

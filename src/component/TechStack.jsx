@@ -23,7 +23,7 @@ const TechStack = () => {
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
                     {skills.map((skill) => (
-                        <div key={skill.name} className="flex items-center gap-2 bg-gray-900/50 px-4 py-2 rounded-lg border border-gray-800">
+                        <div key={skill.name} className="p-4 bg-gray-900/50 rounded-lg border border-gray-800 hover:border-emerald-500 flex flex-col items-center transition-all hover:scale-105">
                             <skill.icon className="text-green-500" size={20} />
                             <span className="text-gray-300">{skill.name}</span>
                         </div>
