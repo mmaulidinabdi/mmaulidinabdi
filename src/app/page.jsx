@@ -12,18 +12,10 @@ export default function Portfolio() {
 
     return (
         <>
-
-            {/* <Squares
-                speed={0.70}
-                squareSize={85}
-                direction='up' // up, down, left, right, diagonal
-                borderColor='#11D432'
-                hoverFillColor='#303030'
-                className='squares-bg' /> */}
             <TechRainBackground
-                speed={25}
+                speed={5}
                 color="#11D432"
-                fontSize={10}
+                fontSize={15}
                 opacity={0.2}
                 trail={2}
                 density={4}
@@ -65,13 +57,13 @@ export default function Portfolio() {
                         <div className="flex flex-col items-center gap-3">
                             {/* Social Links */}
                             <div className="flex gap-20 mt-10">
-                                <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+                                <a href="https://www.linkedin.com/in/muhammad-maulidin-abdi/" target='_blank' className="text-gray-400 hover:text-green-500 transition-colors">
                                     <Linkedin size={24} />
                                 </a>
-                                <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+                                <a href="https://www.instagram.com/m.maulidin_abdi/" target='_blank' className="text-gray-400 hover:text-green-500 transition-colors">
                                     <Instagram size={24} />
                                 </a>
-                                <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+                                <a href="https://github.com/mmaulidinabdi" target='_blank' className="text-gray-400 hover:text-green-500 transition-colors">
                                     <Github size={24} />
                                 </a>
                             </div>
