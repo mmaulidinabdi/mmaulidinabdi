@@ -13,14 +13,14 @@ export default function Portfolio() {
     return (
         <>
             <TechRainBackground
-                speed={5}
+                speed={2}
                 color="#11D432"
-                fontSize={15}
-                opacity={0.2}
-                trail={2}
+                fontSize={10}
+                opacity={1}
+                trail={1}
                 density={4}
             />
-            <div className="min-h-screen text-gray-200 z-10">
+            <div className="min-h-screen text-gray-200 z-10 ">
                 {/* Navigation */}
                 <div className="sticky top-0 z-20 backdrop-blur-sm border-b border-gray-800">
                     <nav className="container mx-auto">
