@@ -22,6 +22,7 @@ export default function Portfolio() {
             />
             <div className="min-h-screen text-gray-200 z-10 ">
                 {/* Navigation */}
+                pp
                 <div className="sticky top-0 z-20 backdrop-blur-sm border-b border-gray-800">
                     <nav className="container mx-auto">
                         <div className="flex flex-wrap items-center justify-between p-4">
