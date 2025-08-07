@@ -12,17 +12,19 @@ export default function Portfolio() {
 
     return (
         <>
-            <TechRainBackground
-                speed={2}
-                color="#11D432"
-                fontSize={10}
-                opacity={1}
-                trail={1}
-                density={4}
-            />
-            <div className="min-h-screen text-gray-200 z-10 ">
+            <div className="fixed inset-0 -z-10 bg-[#0a0f14]">
+                <TechRainBackground
+                    speed={2}
+                    color="#11D432"
+                    fontSize={10}
+                    opacity={1}
+                    trail={1} // Diubah dari 1 ke 0.2
+                    density={4}
+                />
+            </div>
+            <div className="min-h-screen text-gray-200 z-0 ">
                 {/* Navigation */}
-                pp
+
                 <div className="sticky top-0 z-20 backdrop-blur-sm border-b border-gray-800">
                     <nav className="container mx-auto">
                         <div className="flex flex-wrap items-center justify-between p-4">
