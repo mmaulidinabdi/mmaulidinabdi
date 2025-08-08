@@ -94,7 +94,13 @@ const TechRainBackground = ({
         animationRef.current = requestAnimationFrame(animate);
 
         const handleResize = () => {
-            initColumns();
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            // Cegah reinit jika dimensi tidak berubah
+            if (width !== dimensions.current.width || height !== dimensions.current.height) {
+                initColumns();
+            }
         };
 
         window.addEventListener('resize', handleResize);

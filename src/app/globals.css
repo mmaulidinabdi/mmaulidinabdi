@@ -23,6 +23,8 @@ body {
   /* background: var(--background); */
   /* pemecah masalah bug background putih di mobile! */
   will-change: background-position;
+  overscroll-behavior: none;
+  touch-action: manipulation;
   background-attachment: scroll !important;
   background-color: #0a0a0a;
   color: var(--foreground);
@@ -176,5 +178,3 @@ body {
 .animate-progress {
   animation: progress 5s linear forwards;
 }
-
-
