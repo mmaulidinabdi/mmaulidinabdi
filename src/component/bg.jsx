@@ -98,7 +98,7 @@ const TechRainBackground = ({
             const height = window.innerHeight;
 
             // Cegah reinit jika dimensi tidak berubah
-            if (width !== dimensions.current.width || height !== dimensions.current.height) {
+            if (width !== dimensions.current.width) {
                 initColumns();
             }
         };
