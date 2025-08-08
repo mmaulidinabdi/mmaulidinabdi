@@ -20,7 +20,8 @@
 }
 
 body {
-  background: var(--background);
+  /* background: var(--background); */
+  background-color: #0a0a0a;
   color: var(--foreground);
   font-family: var(--font-fira-code);
 }
