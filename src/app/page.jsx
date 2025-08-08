@@ -4,11 +4,29 @@ import Projects from '@/component/Projects';
 import Contact from "@/component/Contact";
 import TechStack from '@/component/TechStack';
 import TechRainBackground from '@/component/bg';
+import { useState, useEffect } from 'react';
 
 
 
 export default function Portfolio() {
+    const [activeSection, setActiveSection] = useState('');
 
+    useEffect(() => {
+        const sections = document.querySelectorAll("section[id]");
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        setActiveSection(entry.target.id);
+                    }
+                });
+            },
+            { threshold: 0.5 }
+        );
+
+        sections.forEach(section => observer.observe(section));
+        return () => sections.forEach(section => observer.unobserve(section));
+    }, [])
 
     return (
         <>
@@ -28,12 +46,12 @@ export default function Portfolio() {
                 <div className="sticky top-0 z-20 backdrop-blur-sm border-b border-gray-800">
                     <nav className="container mx-auto">
                         <div className="flex flex-wrap items-center justify-between p-4">
-                            <a href="#" className="flex items-center space-x-3 group">
+                            <span className="flex items-center space-x-3 group">
                                 <div className="font-source-code text-sm text-green-500">
-                                    <span className="text-gray-300">~$</span> dev/root@127.0.0.1
+                                    <span className='text-gray-300'>~$</span> <span className='text-green-500'>root@172.0.0.1</span>:<span className='text-blue-400'>{activeSection}</span>
                                     <span className="ml-1 h-5 w-0.5 bg-green-500 inline-block align-middle animate-blink group-hover:bg-transparent transition-colors duration-300"></span>
                                 </div>
-                            </a>
+                            </span>
                         </div>
                     </nav>
                 </div>
@@ -42,7 +60,7 @@ export default function Portfolio() {
                 <div className="mx-auto px-6 py-20">
                     {/* About */}
                     <div className="flex flex-col items-center max-w-3xl mx-auto max-h-screen mb-30">
-                        <div className="mb-8">
+                        <section id='' className="mb-8">
                             <h1 className="text-6xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                                 mAuld__<span className="text-white animate-blink group-hover:bg-transparent transition-colors duration-300">+</span>
                             </h1>
@@ -55,7 +73,7 @@ export default function Portfolio() {
                                 </p>
                             </div>
 
-                        </div>
+                        </section>
 
                         <div className="flex flex-col items-center gap-3">
                             {/* Social Links */}
@@ -86,7 +104,7 @@ export default function Portfolio() {
                     </div>
 
                     {/* Timeline Section */}
-                    <div className="mx-auto min-h-screen mb-20 md:px-30">
+                    <section id="_timeline" className="mx-auto min-h-screen mb-20 md:px-30">
                         <h2 className="scroll-m-20 text-3xl font-fira tracking-tight mb-10 text-center font-source-code text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                             Sacred Timeline
                         </h2>
@@ -146,19 +164,20 @@ export default function Portfolio() {
                                 </p>
                             </li>
                         </ol>
-                    </div>
+                    </section>
 
-                    <div className="mb-20 md:px-30">
+                    <section id='_project' className="mb-20 md:px-30">
                         <h2 className="scroll-m-20 text-3xl text-center font-source-code tracking-tight mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-300">
                             Projects
                         </h2>
                         <Projects />
-                    </div>
-                    <div className="mb-20 md:px-30">
-
+                    </section>
+                    <section id='_techstack' className="mb-20 md:px-30">
                         <TechStack />
+                    </section>
+                    <section id='_ask' className="mb-20 md:px-30">
                         <Contact />
-                    </div>
+                    </section>
                 </div>
 
                 {/* Footer */}

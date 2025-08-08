@@ -32,7 +32,7 @@ const projects = [
         id: 4,
         title: "Modista API",
         description: "MODISTA is an app designed to assist customers in purchasing the right outfit.",
-        tech: ["NodeJs", "MySQL", "Sequelize"],
+        tech: ["NodeJs", "MySQL", "Sequelize", "HapiJS"],
         demo: "https://github.com/Modista-Team/Cloud-Computing",
         github: "https://github.com/Modista-Team/Cloud-Computing"
     },
@@ -45,7 +45,7 @@ const Projects = () => {
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
                 className="mySwiper custom-swiper-pagination"
-                spaceBetween={20}
+                spaceBetween={15}
                 slidesPerView={1}
                 breakpoints={{
                     768: { slidesPerView: 2 },
@@ -54,7 +54,8 @@ const Projects = () => {
             >
                 {projects.map((project) => (
                     <SwiperSlide key={project.id}>
-                        <div className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 hover:border-green-500/30 transition-colors min-w-sm min-h-50">
+                        <div className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 hover:border-green-500/30 transition-colors min-w-sm max-w-sm min-h-60 flex flex-col justify-between">
+
                             <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
                             <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
                             <div className="flex flex-wrap gap-2 mb-4">
