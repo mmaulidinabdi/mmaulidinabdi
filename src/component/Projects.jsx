@@ -54,7 +54,7 @@ const Projects = () => {
             >
                 {projects.map((project) => (
                     <SwiperSlide key={project.id}>
-                        <div className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 hover:border-green-500/30 transition-colors min-w-sm max-w-sm min-h-60 flex flex-col justify-between">
+                        <div className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 hover:border-green-500/30 transition-colors min-w-xs md:min-w-sm max-w-sm min-h-60 flex flex-col justify-between">
 
                             <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
                             <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
