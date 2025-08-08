@@ -21,6 +21,9 @@
 
 body {
   /* background: var(--background); */
+  /* pemecah masalah bug background putih di mobile! */
+  will-change: background-position;
+  background-attachment: scroll !important;
   background-color: #0a0a0a;
   color: var(--foreground);
   font-family: var(--font-fira-code);
