@@ -10,7 +10,9 @@ const Header = () => {
                     <li><a href="#contact" className="hover:underline">Contact</a></li>
                 </ul>
             </nav>
+            
         </header>
+        
     );
 }
 

@@ -53,6 +53,7 @@ export default function Portfolio() {
                                 </div>
                             </span>
                         </div>
+                        
                     </nav>
                 </div>
 
@@ -88,6 +89,7 @@ export default function Portfolio() {
                                     <Github size={24} />
                                 </a>
                             </div>
+                            
 
                             {/* About Section */}
                             <div className="mt-15 md:mt-25">
