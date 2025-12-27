@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there 👋
 ### Cloud Computing & DevOps Enthusiast | Fullstack Developer
 
 Experienced Information Technology graduate with a strong foundation in **Cloud Architecture**, **DevOps practices**, and **Web Development**. I am passionate about building scalable applications and automating workflows to improve system efficiency.
