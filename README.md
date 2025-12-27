@@ -59,7 +59,7 @@ Experienced Information Technology graduate with a strong foundation in **Cloud 
 ### 📫 Connect with me:
 
 <p align="left">
-  <a href="https://linkedin.com/in/maulidinabdi" target="_blank">
+  <a href="https://linkedin.com/in/muhammad-maulidin-abdi" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:m.maulidinabdi@gmail.com">
