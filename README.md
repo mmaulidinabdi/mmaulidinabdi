@@ -5,7 +5,10 @@
   <img src="https://img.shields.io/badge/Focus-Cloud%20%7C%20DevOps%20%7C%20Backend-blue?style=for-the-badge" />
 </p>
 
+> "I am the one who codes." — A Cloud & DevOps Specialist passionate about building high-purity scalable systems and automating the 'cooking' process of software delivery.
+<!--
 Experienced Information Technology graduate with a strong foundation in **Cloud Architecture**, **DevOps practices**, and **Fullstack Development**. I specialize in building scalable applications and automating workflows to enhance system efficiency.
+-->
 
 ---
 
@@ -43,15 +46,15 @@ Experienced Information Technology graduate with a strong foundation in **Cloud 
 * 🥇 **Certified Programmer** - BNSP Indonesia
 
 ---
-
+<!--
 ### 📊 GitHub Insights
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=maulidinabdi&show_icons=true&theme=tokyonight&count_private=true" alt="Maulidin's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maulidinabdi&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
-
 ---
+-->
 
 ### 📫 Connect with me:
 
