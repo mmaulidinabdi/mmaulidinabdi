@@ -22,13 +22,14 @@ Experienced Information Technology graduate with a strong foundation in **Cloud 
 | **Tools** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white) |
 
 ---
-
+<!--
 ### 💼 Professional Experience
 
 #### ☁️ Cloud Computing Graduate | Bangkit Academy
 * Engineered and managed **RESTful APIs** with robust database integration.
 * Architected and deployed production-ready environments on **Google Cloud Platform**.
 * Implemented **CI/CD pipelines** to streamline software delivery cycles.
+-->
 
 <!--
 #### 🏛 IT Staff Intern | Dinas Perpustakaan & Kearsipan Banjarmasin
