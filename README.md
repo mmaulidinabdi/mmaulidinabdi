@@ -21,8 +21,8 @@ Experienced Information Technology graduate with a strong foundation in **Cloud 
 | **Databases** | ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) |
 | **Tools** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white) |
 
----
 <!--
+---
 ### 💼 Professional Experience
 
 #### ☁️ Cloud Computing Graduate | Bangkit Academy
@@ -36,17 +36,20 @@ Experienced Information Technology graduate with a strong foundation in **Cloud 
 * Developed a specialized web application for **IMB (Building Permit)** management.
 * Successfully modernized legacy archival processes into a **digitalized system**.
 * Collaborated in cross-functional teams for system analysis and requirement gathering.
--->
 ---
+-->
 
+<!--
 ### 🎓 Education & Certifications
 
-<!--* **D3 Teknik Informatika** - Politeknik Negeri Banjarmasin (**GPA 3.84/4.00**)-->
+* **D3 Teknik Informatika** - Politeknik Negeri Banjarmasin (**GPA 3.84/4.00**)
 * 🥇 **Google Cloud Computing** - Bangkit Academy 
 * 🥇 **DevOps Learning Path** - Dicoding Indonesia
 * 🥇 **Certified Programmer** - BNSP Indonesia
 
 ---
+-->
+
 <!--
 ### 📊 GitHub Insights
 
